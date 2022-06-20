@@ -14,7 +14,7 @@ func main() {
 		panic(err)
 	}
 
-	// Let's start by opening a channel to our RabbitMQ instance
+	// Let's start by opening a channel to our RabbitMQ in stance
 	// over the connection we have already established
 	ch, err := conn.Channel()
 	if err != nil {
